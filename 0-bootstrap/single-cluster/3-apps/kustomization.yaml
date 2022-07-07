@@ -1,5 +1,10 @@
 resources:
+# Datapower
 
+#- argocd/dp/cicd.yaml
+- argocd/dp/dev.yaml
+#- argocd/dp/stage.yaml
+#- argocd/dp/prod.yaml
 
 patches:
 - target:
