@@ -5,6 +5,7 @@ resources:
 - argocd/namespace-tools.yaml
 - argocd/serviceaccounts-ibm-common-services.yaml
 - argocd/serviceaccounts-tools.yaml
+- argocd/namespace-rob.yaml
 patches:
 - target:
     group: argoproj.io
