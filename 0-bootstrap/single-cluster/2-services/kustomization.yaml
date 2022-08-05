@@ -4,12 +4,12 @@ resources:
 ## Cloud Pak for Integration
 #- argocd/operators/ibm-datapower-operator.yaml
 #- argocd/operators/ibm-platform-navigator.yaml
-#- argocd/instances/ibm-platform-navigator-instance.yaml
+- argocd/instances/ibm-platform-navigator-instance.yaml
 
 
 ## IBM Foundational Services / Common Services
 #- argocd/operators/ibm-foundations.yaml
-#- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
 #- argocd/operators/ibm-automation-foundation-core-operator.yaml
 
 ## IBM Catalogs
