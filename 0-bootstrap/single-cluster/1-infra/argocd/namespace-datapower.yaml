@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: namespace-datapower
+  name: validation-flow-migration
   labels:
     gitops.tier.layer: infra
   annotations:
     argocd.argoproj.io/sync-wave: "100"
 spec:
   destination:
-    namespace: validation-flow
+    namespace: validation-flow-migration
     server: https://kubernetes.default.svc
   project: infra
   source:
