@@ -60,7 +60,7 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: kube-system
     server: https://kubernetes.default.svc
-  - namespace: rob
+  - namespace: validation-flow-migration
     server: https://kubernetes.default.svc
   clusterResourceWhitelist:
   - group: ""
